@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  db:
+    image: postgres:11.3
+    ports:
+    - 5432:5432
+    environment:
+      POSTGRES_DB: jwtdemo
+      POSTGRES_USER: jwtdemo
+      POSTGRES_PASSWORD: jwtdemo

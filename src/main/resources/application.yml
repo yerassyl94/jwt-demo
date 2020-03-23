@@ -1,0 +1,10 @@
+jwtSecret: ""
+tokenHeader: Authorization
+tokenPrefix: Bearer
+
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/jwtdemo
+    username: jwtdemo
+    password: jwtdemo
